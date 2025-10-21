@@ -10,3 +10,5 @@
 [NVIDIA CUDA Quantum](https://nvidia.github.io/cuda-quantum/0.4.1/using/tutorials.html)
 
 [Integrating Classiq’s Engine with NVIDIA CUDA-Q](https://www.classiq.io/insights/classiq-advances-the-hpc-quantum-computing-stack-by-integrating-classiqs-engine-with-nvidia-cuda-q)
+
+[Classiq Announces Quantum Center for Life Sciences in Collaboration with NVIDIA](https://www.classiq.io/insights/classiq-announces-quantum-center-for-life-sciences-in-collaboration-with-nvidia)
