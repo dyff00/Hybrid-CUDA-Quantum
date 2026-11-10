@@ -1,0 +1,6 @@
+{'modelo': 'Q-mare', 'seed': 0, 'mae': 2.7804952047904847, 'parametros': 29, 'tempo_s': 804.9050776958466}
+{'modelo': 'Q-gen', 'seed': 0, 'mae': 8.191334669355516, 'parametros': 29, 'tempo_s': 873.4024887084961}
+{'modelo': 'Q-gen', 'seed': 1, 'mae': 8.51806661714924, 'parametros': 29, 'tempo_s': 1017.2361056804657}
+{'modelo': 'Q-mare', 'seed': 1, 'mae': 2.7143866892265414, 'parametros': 29, 'tempo_s': 1110.091754436493}
+{'modelo': 'Q-gen', 'seed': 2, 'mae': 10.864065491654838, 'parametros': 29, 'tempo_s': 702.4585769176483}
+{'modelo': 'Q-mare', 'seed': 2, 'mae': 6.617918614049415, 'parametros': 29, 'tempo_s': 727.0472002029419}

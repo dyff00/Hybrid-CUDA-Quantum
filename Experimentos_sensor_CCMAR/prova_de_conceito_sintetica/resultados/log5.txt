@@ -1,0 +1,4 @@
+{'qubits': 4, 'cudaq_qpp_ms': 0.4681163066652516, 'lightning.qubit_ms': 0.9461204766663892, 'lightning.qubit_dif': 1.1102230246251565e-16, 'default.qubit_ms': 2.2777511300000697, 'default.qubit_dif': 2.8449465006019636e-16}
+{'qubits': 12, 'cudaq_qpp_ms': 41.16639314999399, 'lightning.qubit_ms': 2.638382633335823, 'lightning.qubit_dif': 1.7763568394002505e-15, 'default.qubit_ms': 8.088072999998985, 'default.qubit_dif': 1.7763568394002505e-15}
+{'qubits': 18, 'cudaq_qpp_ms': 5338.324222166648, 'lightning.qubit_ms': 32.805447333316806, 'lightning.qubit_dif': 2.142730437526552e-14, 'default.qubit_ms': 208.98050949995195, 'default.qubit_dif': 1.2545520178264269e-14}
+{'qubits': 22, 'cudaq_qpp_ms': 135238.287183, 'lightning.qubit_ms': 580.7231349999711, 'lightning.qubit_dif': 2.5757174171303632e-14, 'default.qubit_ms': 7856.554284999902, 'default.qubit_dif': 2.6978419498391304e-14}

@@ -1,0 +1,20 @@
+[
+ {
+  "seed": 0,
+  "coeficientes": 305,
+  "dif_max_cm": 1.6852196618621917e-05,
+  "dif_media_cm": 3.500200785670275e-06
+ },
+ {
+  "seed": 1,
+  "coeficientes": 305,
+  "dif_max_cm": 1.4394242536130974e-05,
+  "dif_media_cm": 3.68272478046401e-06
+ },
+ {
+  "seed": 2,
+  "coeficientes": 305,
+  "dif_max_cm": 1.3193692858237682e-05,
+  "dif_media_cm": 2.7466386480172885e-06
+ }
+]

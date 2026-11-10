@@ -1,0 +1,143 @@
+[
+ {
+  "modelo": "HA-4",
+  "seed": 0,
+  "mae": 2.136913474276466,
+  "parametros": 9
+ },
+ {
+  "modelo": "HA-8",
+  "seed": 0,
+  "mae": 2.1622442970041837,
+  "parametros": 17
+ },
+ {
+  "modelo": "HA-9",
+  "seed": 0,
+  "mae": 1.975479420971588,
+  "parametros": 19
+ },
+ {
+  "modelo": "Substituto cl\u00e1ssico",
+  "seed": 0,
+  "mae": 6.103999535653052,
+  "parametros": 305
+ },
+ {
+  "modelo": "MLP 8-3-1",
+  "seed": 0,
+  "mae": 2.557807259167301,
+  "parametros": 31
+ },
+ {
+  "modelo": "KAN [8,2,1] Chebyshev",
+  "seed": 0,
+  "mae": 2.5374833207525698,
+  "parametros": 57
+ },
+ {
+  "modelo": "Bayes-AR",
+  "seed": 0,
+  "cob80": 0.9221491228070174,
+  "largura": 9.372481375707073,
+  "mae24h": 2.128248031866348,
+  "mae24h_sem_erro": 4.00045352477441,
+  "cob80_iid": 0.7510964912280701,
+  "phi": 0.9811674327255114,
+  "janelas": 38
+ },
+ {
+  "modelo": "HA-4",
+  "seed": 1,
+  "mae": 2.224485783440055,
+  "parametros": 9
+ },
+ {
+  "modelo": "HA-8",
+  "seed": 1,
+  "mae": 1.6351903426113694,
+  "parametros": 17
+ },
+ {
+  "modelo": "HA-9",
+  "seed": 1,
+  "mae": 1.2265325222694907,
+  "parametros": 19
+ },
+ {
+  "modelo": "Substituto cl\u00e1ssico",
+  "seed": 1,
+  "mae": 5.760439961507543,
+  "parametros": 305
+ },
+ {
+  "modelo": "MLP 8-3-1",
+  "seed": 1,
+  "mae": 2.041802097329373,
+  "parametros": 31
+ },
+ {
+  "modelo": "KAN [8,2,1] Chebyshev",
+  "seed": 1,
+  "mae": 2.7313643049733174,
+  "parametros": 57
+ },
+ {
+  "modelo": "Bayes-AR",
+  "seed": 1,
+  "cob80": 0.9890350877192982,
+  "largura": 10.196599831060077,
+  "mae24h": 1.7579288155612984,
+  "mae24h_sem_erro": 2.8518439651506107,
+  "cob80_iid": 0.9610745614035089,
+  "phi": 0.9852487599968003,
+  "janelas": 38
+ },
+ {
+  "modelo": "HA-4",
+  "seed": 2,
+  "mae": 3.344927861435207,
+  "parametros": 9
+ },
+ {
+  "modelo": "HA-8",
+  "seed": 2,
+  "mae": 3.0156515173446294,
+  "parametros": 17
+ },
+ {
+  "modelo": "HA-9",
+  "seed": 2,
+  "mae": 2.7056902648525663,
+  "parametros": 19
+ },
+ {
+  "modelo": "Substituto cl\u00e1ssico",
+  "seed": 2,
+  "mae": 8.034733496170164,
+  "parametros": 305
+ },
+ {
+  "modelo": "MLP 8-3-1",
+  "seed": 2,
+  "mae": 5.856042193059843,
+  "parametros": 31
+ },
+ {
+  "modelo": "KAN [8,2,1] Chebyshev",
+  "seed": 2,
+  "mae": 4.5469041926405245,
+  "parametros": 57
+ },
+ {
+  "modelo": "Bayes-AR",
+  "seed": 2,
+  "cob80": 0.9040570175438598,
+  "largura": 9.61181772658656,
+  "mae24h": 2.4400490518275464,
+  "mae24h_sem_erro": 4.116726436858382,
+  "cob80_iid": 0.7335526315789473,
+  "phi": 0.9790786502257005,
+  "janelas": 38
+ }
+]

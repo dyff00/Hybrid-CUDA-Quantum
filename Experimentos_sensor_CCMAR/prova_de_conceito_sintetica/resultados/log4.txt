@@ -1,0 +1,15 @@
+{
+ "100": {
+  "desvio_medio_cm": 21.445301520704202,
+  "corr_spearman_desvio_erro": 0.00904828879512424
+ },
+ "1000": {
+  "desvio_medio_cm": 6.914906202709131,
+  "corr_spearman_desvio_erro": -0.037740271917487106
+ },
+ "10000": {
+  "desvio_medio_cm": 2.168959377328856,
+  "corr_spearman_desvio_erro": -0.0052273792780121895
+ },
+ "erro_abs_medio_cm": 2.5872930930264393
+}
