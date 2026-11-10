@@ -1,0 +1,7 @@
+cudaq
+numpy
+pandas
+scipy
+jax
+pennylane
+pennylane-lightning

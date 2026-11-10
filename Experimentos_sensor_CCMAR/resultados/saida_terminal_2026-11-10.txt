@@ -1,0 +1,71 @@
+Saída do terminal da execução de 10/11/2026 (computador local, Linux, GPU RTX 5070)
+Pasta fase2_experimentos (localmente: fase1/fase2_orientador)
+
+=== python 00_verificar.py (.venv-principal) ===
+Coluna de tempo: data_hora | coluna de nível: valor | escala para cm: 1.0
+Leituras: 3814 | faltando: 5 | restantes: 0 | grade: 3819 pontos
+Período: 2026-08-08 01:30:00 a 2026-10-26 14:30:00 | amplitude: 33.3 a 109.7 cm
+Primeira previsão de teste: 2026-10-06 15:00:00 (na fase 1: 06/10/2026) | janelas: 39
+OK: período de teste igual ao da fase 1.
+
+=== python 01_historico_chronos.py (.venv-principal) ===
+Coluna de tempo: data_hora | coluna de nível: valor | escala para cm: 1.0
+Leituras: 3814 | faltando: 5 | restantes: 0 | grade: 3819 pontos
+Período: 2026-08-08 01:30:00 a 2026-10-26 14:30:00 | amplitude: 33.3 a 109.7 cm
+Janelas: 1646
+Dispositivo: cuda
+1646/1646 em 3 s
+
+Teste de sanidade contra a fase 1
+métrica       agora   fase 1
+mae           4.618    4.620
+wql           1.830    1.830
+cobertura     0.768    0.768
+OK: reproduz a fase 1.
+
+=== bash rodar_quantico.sh (.venv-quantico) ===
+Fração da variância do erro por banda
+Nível observado {'Baixa frequê': 0.737, 'Diurna (22 a': 0.155, 'Semidiurna (': 0.044, 'Terdiurna (7': 0.003, 'Quarto-diurn': 0.013, 'Demais frequ': 0.048}
+Erro em 1 h {'Baixa frequê': 0.058, 'Diurna (22 a': 0.017, 'Semidiurna (': 0.039, 'Terdiurna (7': 0.025, 'Quarto-diurn': 0.048, 'Demais frequ': 0.813}
+Erro em 6 h {'Baixa frequê': 0.408, 'Diurna (22 a': 0.121, 'Semidiurna (': 0.11, 'Terdiurna (7': 0.02, 'Quarto-diurn': 0.003, 'Demais frequ': 0.338}
+Erro em 12 h {'Baixa frequê': 0.679, 'Diurna (22 a': 0.114, 'Semidiurna (': 0.007, 'Terdiurna (7': 0.017, 'Quarto-diurn': 0.004, 'Demais frequ': 0.179}
+Erro em 24 h {'Baixa frequê': 0.875, 'Diurna (22 a': 0.016, 'Semidiurna (': 0.011, 'Terdiurna (7': 0.003, 'Quarto-diurn': 0.007, 'Demais frequ': 0.088}
+Chronos-2                                mae=4.618 wql=1.830 cobertura=0.768 largura=13.164
+Chronos-2 + 4 constituintes              mae=4.814 wql=1.907 cobertura=0.714 largura=13.164
+Chronos-2 + 9 constituintes              mae=4.817 wql=1.908 cobertura=0.722 largura=13.164
+Harmônica pura                           mae=6.466
+Harmônica + persistência da anomalia     mae=4.791
+Chronos-2                mae=4.618 wql=1.830 cobertura=0.768 largura=13.164
+Chronos-2 + conformal    mae=4.618 wql=1.829 cobertura=0.803 largura=14.282
+Bayes                    mae=4.798 wql=1.953 cobertura=0.849 largura=18.532
+Bayes + conformal        mae=4.798 wql=1.923 cobertura=0.768 largura=14.841
+Treinando 6 circuitos, 6 por vez...
+mare 2: val=66.641 lr=0.05 1161 s
+gen 0: val=68.595 lr=0.02 1176 s
+mare 1: val=66.410 lr=0.05 1179 s
+gen 2: val=69.809 lr=0.05 1181 s
+mare 0: val=69.036 lr=0.02 1182 s
+gen 1: val=70.225 lr=0.02 1187 s
+Chronos-2 sem correção: MAE 4.618
+Circuito genérico                p= 29 MAE=4.728 (4.693 a 4.755)
+Harmônica, 9 constituintes       p= 19 MAE=4.798 (4.798 a 4.798)
+KAN [8,1]                        p= 25 MAE=4.805 (4.805 a 4.805)
+Harmônica, 4 constituintes       p=  9 MAE=4.807 (4.807 a 4.807)
+Circuito com espectro de maré    p= 29 MAE=4.817 (4.765 a 4.905)
+MLP                              p= 31 MAE=5.153 (5.032 a 5.494)
+KAN [8,2,1]                      p= 57 MAE=5.547 (5.453 a 5.686)
+qpp-cpu 4 {'ms': 0.37732931333418185, 'valor': 1.090963281852848, 'rep': 300}
+qpp-cpu 12 {'ms': 19.010121130434964, 'valor': 0.509569745337217, 'rep': 115}
+qpp-cpu 18 {'ms': 1544.3697899997915, 'valor': -1.2984401892737305, 'rep': 2}
+qpp-cpu 22 {'ms': 36913.850718000045, 'valor': 0.7565383203407094, 'rep': 1}
+qpp-cpu 26 {'erro': 'passou de 4 min'}
+nvidia 4 {'ms': 0.34304028333281167, 'valor': 1.0909630488604307, 'rep': 300}
+nvidia 12 {'ms': 1.0268698733322403, 'valor': 0.5095693300938997, 'rep': 300}
+nvidia 18 {'ms': 1.5792362633328594, 'valor': -1.2984395848517836, 'rep': 300}
+nvidia 22 {'ms': 2.780551556666069, 'valor': 0.7565382044175247, 'rep': 300}
+nvidia 26 {'ms': 46.45545193181988, 'valor': 0.2871373453342342, 'rep': 44}
+lightning.qubit 4 {'ms': 4.694042350000321, 'valor': 1.0909632818528479, 'rep': 300}
+lightning.qubit 12 {'ms': 5.999793623333669, 'valor': 0.5095697453372152, 'rep': 300}
+lightning.qubit 18 {'ms': 29.25538756521812, 'valor': -1.298440189273752, 'rep': 69}
+lightning.qubit 22 {'ms': 956.2975759999972, 'valor': 0.7565383203406846, 'rep': 3}
+lightning.qubit 26 {'ms': 18465.492971000003, 'valor': 0.28713747910476856, 'rep': 1}

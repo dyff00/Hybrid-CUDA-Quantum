@@ -1,0 +1,7 @@
+# Ambiente principal (Python 3.12): Chronos-2, TimesFM-3, TiRex-2 e avaliação
+chronos-forecasting[extras]==2.3.2   # Chronos-2 (+ peft para LoRA)
+timesfm[torch]==3.0.2                # TimesFM-3 (pesos: licença não comercial)
+tirex-2==0.4.0                       # TiRex-2 (import tirex2)
+pandas
+matplotlib
+scipy

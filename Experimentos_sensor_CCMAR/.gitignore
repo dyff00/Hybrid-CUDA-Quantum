@@ -1,0 +1,8 @@
+.venv-*/
+.venv/
+__pycache__/
+*.pyc
+fase1_replicacao/resultados/
+fase1_replicacao/checkpoints/
+fase2_experimentos/saida/
+dados/serie_30min.csv
